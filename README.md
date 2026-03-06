@@ -6,6 +6,7 @@ Features
 - Convert text to JSON
 - Detect numbers and booleans
 - Pretty print JSON
+- convert to different cases like camel case ,upper case
 
 Technology Used
 - Python
@@ -14,11 +15,11 @@ Technology Used
 Example Input
 name: John Doe
 age: 28
-is_active: true
+isactive: true
 
 Example Output
 {
  "name": "John Doe",
  "age": 28,
- "is_active": true
+ "isActive": true
 }
